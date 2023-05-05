@@ -137,6 +137,7 @@ input {
     margin-top: 25.14px;
     display: flex;
     gap: 88px;
+    width: 48.8px;
 
 
 }
@@ -152,24 +153,25 @@ input {
     left: 37px;
     top: 48px;
 }
-.left-input p{
-    font-weight: 500;
-font-size: 20px;
-line-height: 24px;
 
-color: #666666;
-}
-.right-input p{
+.left-input p {
     font-weight: 500;
-font-size: 20px;
-line-height: 24px;
+    font-size: 20px;
+    line-height: 24px;
 
-color: #666666;
+    color: #666666;
 }
-.cospace-dropdown select option {
-    xt-indent: 20px;
-        padding: 10px;
+
+.right-input p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #666666;
 }
+
+
+
 .left-input input {
     /* padding: 12px 0; */
     padding-left: 74px;
@@ -179,6 +181,28 @@ color: #666666;
 
 .right-input {
     position: relative;
+}
+
+select {
+    padding-left: 74px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #666666;
+
+    /* position: relative; */
+
+}
+
+.cospace-dropdown {
+    position: relative;
+}
+
+.co-img {
+    position: absolute;
+    top: 46px;
+    left: 39px;
 }
 
 .right-input img {
@@ -229,11 +253,12 @@ color: #666666;
     width: 686px;
     height: 48.28px;
 }
-.cospace-dropdown select option{
+
+.cospace-dropdown select option {
     padding: 10px 10px;
-  }
-  
-  
+}
+
+
 
 .cospace-dropdown p {
     margin-top: 16.24px;
@@ -252,7 +277,7 @@ color: #666666;
 
 .phonenumber input {
     /* padding: 16px 0px; */
-    width: 529px;
+    /* width: 613px; */
     height: 48.28px;
 
     padding-left: 74px;
@@ -264,7 +289,7 @@ color: #666666;
 
 .phonenumber img {
     position: absolute;
-    top: 65px;
+    top: 50px;
     left: 35px;
 }
 
@@ -273,7 +298,7 @@ color: #666666;
     margin-bottom: 7.24px;
     background: #FFFFFF;
     border-radius: 8px;
-    width: 529px;
+    width: 613px;
     height: 48.28px;
 }
 
@@ -311,7 +336,7 @@ color: #666666;
 
 .messege textarea {
     margin-bottom: 50.49px;
-    width: 529px;
+    width: 678px;
     height: 117.41px;
     overflow: hidden;
     outline: none;
@@ -320,7 +345,7 @@ color: #666666;
 .submit button {
     background: #177B57;
     border-radius: 8px;
-    width: 529px;
+    width: 678px;
     height: 43.97px;
     border: none;
     font-weight: 700;
@@ -335,8 +360,167 @@ color: #666666;
 }
 
 
+.contact-reserved {
+    display: flex;
+
+    gap: 107px;
+}
+
+.reserved-right {
+    /* border: 1px solid red; */
+    margin-top: 151px;
+}
+
+.call {
+    margin-bottom: 45px;
+}
+
+.call-head {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+
+    display: flex;
+    align-items: center;
+
+    color: #212121;
+    margin-bottom: 8px;
+
+}
+
+.time {
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    display: flex;
+    align-items: center;
+
+    color: #90A4AE;
+    margin-bottom: 8px;
+}
+
+.call-para {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    display: flex;
+    align-items: center;
+
+    color: #90A4AE;
+    margin-bottom: 8px;
+}
+
+.call-phone {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+
+    /* main */
+
+    color: #177B57;
+}
+
+.email-head {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+
+    display: flex;
+    align-items: center;
+
+    color: #212121;
+    margin-bottom: 8px;
+
+}
+
+.email-para {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    display: flex;
+    align-items: center;
+
+    color: #90A4AE;
+    margin-bottom: 8px;
+}
+.email-us
+{
+    margin-bottom: 45px;
+}
+.mail{
+    font-weight: 500;
+font-size: 14px;
+line-height: 21px;
 
 
+color: #177B57;
+}
+.address{
+    margin-bottom: 45px;
+}
+.address-head{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #212121;
+    margin-bottom: 8px;
+}
+.street{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #90A4AE;
+    
+}
+.any-ques
+{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #212121;
+margin-bottom: 8px;    
+}
+
+.faq{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+    
+    display: flex;
+    align-items: center;
+    
+    /* main */
+    
+    color: #177B57;
+    
+}
 
 /* <!-----CONTACT PAGE   --> */
 
