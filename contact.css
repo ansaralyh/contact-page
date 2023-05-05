@@ -8,9 +8,10 @@
     font-family: 'Libre Franklin', sans-serif;
 
 }
-input{
- outline: none;
- border: none;
+
+input {
+    outline: none;
+    border: none;
 }
 
 .main {
@@ -106,6 +107,7 @@ input{
     /* border: 1px solid red; */
     background: #F5F5F5;
     padding-left: 50px;
+    padding-bottom: 50px;
 }
 
 .reserved-heading {
@@ -134,9 +136,63 @@ input{
 .reserved-input {
     margin-top: 25.14px;
     display: flex;
-    gap: 10px;
+    gap: 88px;
 
 
+}
+
+.left-input {
+    position: relative;
+    width: 235px;
+    height: 40px;
+}
+
+.left-input img {
+    position: absolute;
+    left: 37px;
+    top: 48px;
+}
+.left-input p{
+    font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #666666;
+}
+.right-input p{
+    font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #666666;
+}
+.cospace-dropdown select option {
+    xt-indent: 20px;
+        padding: 10px;
+}
+.left-input input {
+    /* padding: 12px 0; */
+    padding-left: 74px;
+    width: 235px;
+    height: 40px;
+}
+
+.right-input {
+    position: relative;
+}
+
+.right-input img {
+    position: absolute;
+    top: 48px;
+    right: 296px;
+}
+
+.right-input input {
+    /* padding: 12px 0; */
+    /* border: 1px solid red; */
+    padding-left: 74px;
+    padding-top: 11px;
+    padding-bottom: 13px;
 }
 
 .reserved-input .left-input input {
@@ -145,9 +201,10 @@ input{
     background: #FFFFFF;
     border-radius: 8px;
 }
+
 .reserved-input .right-input input {
-    width: 235px;
-    height: 40px;
+    width: 284px;
+    /* height: 40px; */
     background: #FFFFFF;
     border-radius: 8px;
 }
@@ -155,11 +212,126 @@ input{
 .reserved-input p {
     margin-bottom: 14.31px;
 }
+
+.cospace-dropdown p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #666666;
+}
+
+
+
 .cospace-dropdown select {
     background: #FFFFFF;
-border-radius: 8px;
-width: 529px;
-height: 48.28px;
+    border-radius: 8px;
+    width: 686px;
+    height: 48.28px;
+}
+.cospace-dropdown select option{
+    padding: 10px 10px;
+  }
+  
+  
+
+.cospace-dropdown p {
+    margin-top: 16.24px;
+    margin-bottom: 9.62px;
+}
+
+.phonenumber p {
+    margin-top: 17.24px;
+    margin-bottom: 12.93px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #666666;
+}
+
+.phonenumber input {
+    /* padding: 16px 0px; */
+    width: 529px;
+    height: 48.28px;
+
+    padding-left: 74px;
+}
+
+.phonenumber {
+    position: relative;
+}
+
+.phonenumber img {
+    position: absolute;
+    top: 65px;
+    left: 35px;
+}
+
+
+.phonenumber input {
+    margin-bottom: 7.24px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    width: 529px;
+    height: 48.28px;
+}
+
+.messege textarea::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #666666;
+
+    padding-top: 16.38px;
+    padding-left: 54px;
+    padding-bottom: 84.65px;
+}
+
+.messege p {
+    margin-top: 7.24px;
+    margin-bottom: 22.93px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #666666;
+}
+
+.messege {
+    position: relative;
+}
+
+.messege img {
+    position: absolute;
+    top: 65px;
+    left: 21px;
+}
+
+.messege textarea {
+    margin-bottom: 50.49px;
+    width: 529px;
+    height: 117.41px;
+    overflow: hidden;
+    outline: none;
+}
+
+.submit button {
+    background: #177B57;
+    border-radius: 8px;
+    width: 529px;
+    height: 43.97px;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+
+    text-align: center;
+    letter-spacing: -0.011em;
+
+    color: #FFFFFF;
 }
 
 
